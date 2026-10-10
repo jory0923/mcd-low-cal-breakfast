@@ -1,0 +1,30 @@
+# 运行时中间文件 / Runtime intermediates
+# 这些文件包含门店菜单、营养原始响应等运行时数据，不应提交到版本库
+*.tmp
+raw_*.txt
+menu*.json
+nutrition.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 凭据 / Credentials — 本项目不应包含任何密钥
+.env
+.env.*
+credentials.json
+*.pem
+*.key
+secrets.*
+
+# 日志 / Logs
+*.log
